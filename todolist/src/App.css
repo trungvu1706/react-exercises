@@ -1,0 +1,39 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 500px;
+  margin: 30px;
+  border: 1px solid #c2eaba;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #c2eaba;
+}
+
+@media screen and (max-width: 560px) {
+  .App {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.App-header {
+  font-size: 25px;
+  padding: 20px;
+  text-transform: uppercase;
+  letter-spacing: 14px;
+}
+
+.App-header i {
+  float: left;
+}
+
+.empty-list {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 14px;
+  margin-bottom: 10px;
+}
